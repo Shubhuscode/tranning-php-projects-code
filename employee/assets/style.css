@@ -1,0 +1,103 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #007bff;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button.delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
